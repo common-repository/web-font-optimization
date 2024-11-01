@@ -1,0 +1,3 @@
+function lc(a){return a.replace(/^g:/,"https://fonts.gstatic.com/")}var mc=y[5]?y[5][0]:0;
+mc&&"FontFace"in m&&kc(mc,function(a,c,b,d,e,f){function g(){k||(k=!0,l.fonts.add(q),f&&(f[7]&&f[7]in m&&m[f[7]].call(m,a),f[10]&&jc(f[10][11],f[10][12],f[10][13])))}function h(){k&&(k=!1,l.fonts["delete"](q))}if("string"===typeof a?a:a[26]){var k;"string"===typeof a[14]?b="url("+lc(a[14])+")":(b=[],a[14][16]&&b.push("url("+lc(a[14][16])+") format('woff2')"),a[14][15]&&b.push("url("+lc(a[14][15])+") format('woff')"),b=b.join(", "));var q=new FontFace(a[26],b,c);q.load().then(function(){e?K(e,g,h):
+g()})}});
